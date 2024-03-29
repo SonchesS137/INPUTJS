@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INPUT</title>
+  <link href="stylesheets/style.css" rel="stylesheet" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script type="text/javascript" src="../js/canvas.js"></script>
+  <script type="text/javascript" src="../js/canvas2.js"></script>
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.5.0/lib/p5.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  <script src="js/draganddrop.js"></script>
+  <script src="js/canvas.js"></script>
+  <script src="js/track.js"></script>
+
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      // главный экран, переходы в миры по нажатию
+      $(".item1").click(function() {
+        $(".firstscreen").css("display", "none")
+        $(".secondscreen").css("display", "block")
+      });
+    });
+    </script>
+
+    </head>
+
+<body>
+  <div class="firstscreen">
+    
+    <div class="squares">
+      <div class="item1">2005</div>
+        <div class="square1"></div>
+        <div class="square2"></div>
+        <div class="square3"></div>
+        <div class="square4"></div>
+        <div class="square5"></div>
+      </div> 
+
+    <!-- Прячем изображение -->
+    <img id="image" src="images/блокчб.svg"  style="display: none;"> 
+    <!-- width и height нужны для размера canvas -->
+    <canvas id="canvas" width="2000" height="800" style="position: absolute; "></canvas>
+    <script type="text/javascript" src="js/canvas.js"></script>
+  
+    <div class="squares2">
+        <div class="square6"></div>
+        <div class="square7"></div>
+        <div class="square8"></div>
+        <div class="square9"></div>
+        <div class="square10"></div>
+      </div>
+
+    <div class="move"><p2>ошиб%ка чт_ения стары#х фай!лов ошиб%ка чт_ения стары#х фай!лов</p2></div>
+
+  </div>
+
+
+  <div class="secondscreen">
+    <div class="squares">
+        <div class="square1_2"></div>
+        <div class="square2_2"></div>
+        <div class="square3_2"></div>
+        <div class="square4_2"></div>
+        <div class="square5_2"></div>
+        <div class="item2">
+          <span>2135</span>
+        </div>
+      </div>
+
+    <div class="squares">
+        <div class="square6_2"></div>
+        <div class="square7_2"></div>
+        <div class="square8_2"></div>
+        <div class="square9_2"></div>
+        <div class="square10_2"></div>
+      </div>
+      <!-- Прячем изображение -->
+    <img id="image2" src="images/блок.svg"  style="display: none; mix-blend-mode: screen;">
+    <!-- width и height нужны для размера canvas -->
+    <canvas id="canvas2" width="2000" height="800" style="position: absolute "></canvas>
+    <script type="text/javascript" src="js/canvas2.js"></script>
+
+    <div class="squares2">
+      <div class="square11"></div>
+      <div class="square12"></div>
+      <div class="square13"></div>
+      <div class="square14"></div>
+      <div class="square15"></div>
+      <div class="square16"></div>
+      <div class="square17"></div>
+      <div class="square18"></div>
+      <div class="square19"></div>
+      <div class="square20"></div>
+    </div>
+    
+    <div class="move2"><p5>со^здай но$вого себ.я со^здай но$вого себ.я со^здай но$вого себ.я со^здай но$вого себ.я</p5></div>
+  
+    <button id="next" class="button1">
+      <p3>ц.в&ет</p3>
+    </button>
+    
+    <button id="next2" class="button2">
+      <p7>ц#в*ет</p7>
+    </button>
+
+    <img class="img1" src="" alt="">
+    <img class="img2" src="" alt="">
+
+    <div class="squares2_2">
+      <div class="square21"></div>
+      <div class="square22"></div>
+      <div class="square23"></div>
+      <div class="square24"></div>
+      <div class="square25"></div>
+      <p6>Се_рова Со^фья Б23.ДЗ%10</p6>
+
+      
+    </div>
+    
+
+  </div>
+
+
+</body>
+</html>

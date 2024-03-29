@@ -1,0 +1,17 @@
+@import 'reset.css';
+@import 'content.css';
+@import 'responsive.css';
+
+@font-face {
+    font-family: 'Orbitron';
+    src: url('../fonts/Orbitron-Regular.ttf') format('ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Disket Mono';
+    src: url("../fonts/Disket-Mono-Regular.ttf") format('ttf');
+    font-weight: 400;
+    font-style: normal;
+  }

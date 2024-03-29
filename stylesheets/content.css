@@ -1,0 +1,378 @@
+body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: auto; /* добавить полосу прокрутки */ 
+        overflow-x: hidden;
+  }
+  /*первый экран */
+.firstscreen {
+    background: rgb(0, 0, 0);
+    display: block;
+}
+
+.item1{
+
+    color: rgb(0, 0, 0);
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-size: 20.83vw;
+    position: absolute;
+    
+}
+.item1:hover{color: #ffffff; mix-blend-mode: exclusion}
+
+.squares {
+    display: flex;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    
+}
+.square1{
+    width: 20%;
+    height: 34.72vw;
+    background: rgb(255, 255, 255);
+}
+
+.square2{
+    width: 20%;
+    height: 34.72vw;
+    background: rgb(66, 66, 66);
+}
+
+.square3{
+    width: 20%;
+    height: 34.72vw;
+    background: rgb(146, 153, 156);
+}
+
+.square4{
+    width: 20%;
+    height: 34.72vw;
+    background: rgb(24, 22, 23);
+}
+
+.square5{
+    width: 20%;
+    height: 34.72vw;
+    background: rgb(212, 212, 212);
+
+}
+
+.squares2 {
+    display: flex;
+    width: auto;
+    
+}
+
+.square6 {
+    width: 20%;
+    height: 55.56vw;
+    background: rgb(24, 22, 23);
+}
+
+.square7{
+    width: 20%;
+    height: 6.94vw;
+    background: rgb(146, 153, 156);
+}
+.square8{
+    width: 20%;
+    height: 34.72vw;
+    background: rgb(255, 255, 255);
+}
+.square9{
+    width: 20%;
+    height: 41.67vw;
+    background: rgb(212, 212, 212);
+
+}
+.square10{
+    width: 20%;
+    height: 6.94vw;
+    background: rgb(66, 66, 66);
+}
+.move{
+color: #ffffff;    
+font-family: 'Disket Mono';
+font-size: 5.56vw;
+line-height: normal;
+mix-blend-mode: exclusion;
+margin: 0 auto;
+animation: move 2s linear 1s infinite running;
+animation-play-state: running;
+width: 277.78vw;
+}
+@keyframes move {
+    0% {transform: translateX(0)}
+    100% {transform: translateX(-125.35vw)}
+  }
+
+/*второй экран */
+
+.secondscreen {
+    background: rgb(0, 0, 0);
+    display: none;
+}
+
+.square1_2{
+    width: 20%;
+    height: 34.72vw;
+    background: rgb(255, 255, 255);
+}
+
+.square2_2{
+    width: 20%;
+    height: 34.72vw;
+    background: rgb(160, 231, 63);
+}
+
+.square3_2{
+    width: 20%;
+    height: 34.72vw;
+    background: rgb(71, 196, 235);
+}
+
+.square4_2{
+    width: 20%;
+    height: 34.72vw;
+    background: rgb(193, 36, 57);
+}
+
+.square5_2{
+    width: 20%;
+    height: 34.72vw;
+    background: rgb(105, 36, 193);
+}
+
+.square6_2 {
+    width: 20%;
+    height: 5vw;
+    background: rgb(71, 196, 235);
+}
+
+.square7_2{
+    width: 20%;
+    height: 5vw;
+    background: rgb(105, 36, 193);
+}
+.square8_2{
+    width: 20%;
+    height: 5vw;
+    background:  rgb(255, 255, 255);
+}
+.square9_2{
+    width: 20%;
+    height: 5vw;
+    background: rgb(160, 231, 63);
+
+}
+.square10_2{
+    width: 20%;
+    height: 5vw;
+    background: rgb(193, 36, 57);
+}
+
+.square11 {
+    width: 10%;
+    height: 55.56vw;
+    background:rgb(193, 36, 57) ;
+}
+
+.square12 {
+    width: 10%;
+    height: 12.72vw;
+    background:rgb(255, 255, 255) ;
+}
+.square13 {
+    width: 10%;
+    height: 34.72vw;
+    background:rgb(160, 231, 63) ;
+}
+.square14 {
+    width: 10%;
+    height: 34.72vw;
+    background:rgb(0, 0, 0) ;
+    display: hidden;
+}
+.square15 {
+    width: 10%;
+    height: 22.72vw;
+    background:rgb(105, 36, 193) ;
+}
+.square16 {
+    width: 10%;
+    height: 34.72vw;
+    background:rgb(0, 0, 0) ;
+    display: hidden;
+}
+.square17 {
+    width: 10%;
+    height: 34.72vw;
+    background:rgb(0, 0, 0) ;
+    display: hidden;
+}
+.square18 {
+    width: 10%;
+    height: 34.72vw;
+    background:rgb(0, 0, 0) ;
+    display: hidden;
+}
+.square19 {
+    width: 10%;
+    height: 37.72vw;
+    background:rgb(71, 196, 235) ;
+}
+.square20 {
+    width: 10%;
+    height: 12.72vw;
+    background:rgb(160, 231, 63) ;
+}
+.move2{
+    color: #ffffff;    
+    font-family: 'Disket Mono';
+    font-size: 5.56vw;
+    line-height: normal;
+    margin: 0 auto;
+    animation: move 2s linear 1s infinite running;
+    animation-play-state: running;
+    width: 357.78vw;
+    }
+    @keyframes move2 {
+        0% {transform: translateX(0)}
+        100% {transform: translateX(-125.35vw)}
+      }
+.item2{color: rgb(0, 0, 0);
+font-family: 'Orbitron';
+font-style: normal;
+font-size: 20.83vw;
+position: absolute;
+
+}
+
+.item2 span {
+    mix-blend-mode: exclusion;
+    font-size: 20vw;
+    background: linear-gradient(to right, #000000 50%, #fff 50%) 0 0 / 400% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    box-decoration-break: slice;
+    -webkit-box-decoration-break: slice;
+  }
+
+.img1 {
+    transform: rotate(-12deg);
+    width: 50%;
+    height: auto;
+    display: block;
+}
+
+.img2 {
+    transform: rotate(12deg);
+    width: 50%;
+    height: auto;
+    display: block;
+    position: absolute;
+    top: 125vw;
+    left: 55.56vw;
+}
+
+
+.button1 {
+    width: 33.40vw;
+    height: 12.92vw;
+    border-radius: 2.78vw;
+    border: 0.69vw solid rgb(160, 231, 63);
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 104.17vw;
+    left: 55.56vw;
+    text-align: center;
+}
+
+.button2 {
+    width: 33.40vw;
+    height: 12.92vw;
+    border-radius: 2.78vw;
+    border: 0.69vw solid rgb(160, 231, 63);
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top:121.53vw;
+    left: 34.72vw;
+    text-align: center;
+}
+
+p3 {
+    font-family: 'Disket Mono';
+    font-size: 6.94vw;
+}
+p7 {
+    font-family: 'Disket Mono';
+    font-size: 6.94vw;
+
+}
+p6 {
+    font-family: 'Disket Mono';
+    font-size: 3.47vw;
+    color: #ffffff;
+    position: absolute;
+    mix-blend-mode: exclusion;
+
+}
+
+
+.squares2_2 {
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+
+}
+.square21 {
+    width: 20%;
+    height: 34.03vw;
+    background:rgb(71, 196, 235) ;
+}
+.square22 {
+    width: 20%;
+    height: 20.14vw;
+    background:rgb(105, 36, 193) ;
+}
+.square23 {
+    width: 20%;
+    height: 5vw;
+    background:rgb(255, 255, 255) ;
+}
+.square24 {
+    width: 20%;
+    height: 37.50vw;
+    background:rgb(160, 231, 63) ;
+}
+.square25 {
+    width: 20%;
+    height: 12.50vw;
+    background:rgb(193, 36, 57) ;
+}
+
+.button1:hover{
+    animation: blink 0.1s linear infinite;
+}
+@keyframes blink{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity:0;
+    }
+}
+.button2:hover{
+    animation: blink 0.1s linear infinite;
+}
+@keyframes blink{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity:0;
+    }
+}

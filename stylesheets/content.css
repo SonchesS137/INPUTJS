@@ -12,6 +12,7 @@ body {
         padding: 0;
         overflow: auto; /* добавить полосу прокрутки */ 
         overflow-x: hidden;
+        font-family: "Disket Mono", sans-serif;
   }
   /*первый экран */
 .firstscreen {
